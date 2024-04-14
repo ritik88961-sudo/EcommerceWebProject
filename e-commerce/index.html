@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OnlineStore</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+	<!-- Header Start -->
+	<header>
+		<!-- Navigation Bar Start -->
+		<nav class="navbar">
+
+			<!-- Brand Logo -->
+			<a href="#" class="brand"><img src="logo.png"></a>
+
+			<!-- Menu Bar start -->
+			<ul class="navbar-nav" id="res-menu">
+
+				<!-- Bars for responsive (Mobile and Tablet) -->
+				<label for="res-bar" class="bars"><i class="fa fa-bars"></i></label>
+				<input type="checkbox" id="res-bar" class="check">
+				
+				<!-- Menu bar For desktop page -->
+				<div id="desk" class="desk-men">
+
+					<!-- Menu Slider close button -->
+					<label for="res-bar" id="closemenubtn"><i class="ri-close-line"></i></label>
+
+					<!-- Menu List start -->
+				<li class="navbar-list" id="dropdown"><a href="#">Categories&nbsp;<i class="fa fa-angle-up"></i>
+</a>			
+					<!-- Dropdown menu start -->
+					<ul class="navbar-dropdown" id="bar">
+						
+						<!-- Dropdown menu list start -->
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/wireless-earbuds.webp"/><span>True Wireless Earbuds<span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/personalised-products.webp"/><span>Personalised products</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/neckbands.png"/><span>Neckbands</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/smart-watch.webp"/><span>Smart Watches</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/wireless-headphones.webp"/><span>Wireless Headphones</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/wireless-speaker.webp"/><span>Wireless Speaker</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/wired-headphone.webp"/><span>Wired Headphones</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/wired-earphone.webp"/><span>Wired Earphones</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/soundbars.webp"/><span>Soundbars</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/gaming-headphones.png"/><span>Gaming Headphones</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/party-speaker.webp"/><span>Party Speakers</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/misfit-trimmers.webp"/><span>Misfit Trimmers</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/chargers.webp"/><span>Chargers</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/power-banks.webp"/><span>Power Banks</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/cables.webp"/><span>Cables</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/car-accessories.webp"/><span>Car Accessories</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/superhero-collection.webp"/><span>Superhero Collections</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/trebel-women.png"/><span>Trebel for Women</span></a></li>
+						<li class="navbar-dropdown-list"><a href="#"><img src="assets/images/limited-edition.webp"/><span>Limited Edition</span></a></li>
+						<!-- Dropdown menu list end -->
+					</ul>
+					<!-- Dropdown menu end -->
+				</li>
+				<li class="navbar-list"><a href="#">About</a></li>
+				<li class="navbar-list"><a href="#">Become a Seller</a></li>
+				<li class="navbar-list"><a href="#">Download App</a></li>
+
+				<!-- menu for mobile/tablet page -->
+				<div class="res-btn">
+					<li class="navbar-list" id="searchbar"><i class="fa fa-search"></i><input type="text" id="search" placeholder="Search..."></li>
+					<li class="navbar-list">
+						<button class="lgn-btn" id="lgn"><i class="fa fa-user-circle-o" id="login"></i>Login</button>
+					</li>
+					<li class="navbar-list">
+						<button id="shop-cart"><i class="fa fa-shopping-cart" id="shop"></i>Cart</button>
+					</li>
+				</div>
+			</div>
+		</span></span></a></li></div>
+
+				<!-- menu list for responsive slider menu -->
+				<div id="res">
+					<li class="navbar-list" id="searchbar"><i class="fa fa-search"></i><input type="text" id="search" placeholder="Search..."></li>
+					<li class="navbar-list"><button class="lgn-btn"><i class="fa fa-user-circle-o" id="login-logo"></i>Login</button></li>
+					<li class="navbar-list"><button id="shop-cart-btn"><i class="fa fa-shopping-cart" id="shop-cart"></i>Cart</button></li>
+				</div>
+			</ul>
+			<!-- Menu End -->
+		</nav>
+		<!-- Navigation Bar End -->
+	</header>
+	<!-- Header end -->
+
+	<!-- Attractive slogan start -->
+	<main>
+			<div class="attractive-slogan">
+				<div class="slogan">
+					<h1>Lowest Price</h1>
+					<h1>Best Quality Shopping</h1>
+					<div class="del-details">
+						<div class="delivery">
+							<img src="assets/images/freedelivery.svg">
+							<p>Free <br>Delivery</p>
+						</div>
+						<div class="delivery">
+							<img src="assets/images/cashondelivery.svg">
+							<p>Cash <br>On Delivery</p>
+						</div>
+						<div class="delivery">
+							<img src="assets/images/easyreturn.svg">
+							<p>Easy <br>Return</p>
+						</div>
+					</div>
+				</div>
+				<div class="slogan-img">
+					<img src="assets/images/discount.png">
+					<h2>Get up to 100% discount <br>on your first purchase</h2>
+				</div>
+			</div>
+			<!-- Product container start -->
+			<div class="product">
+				<img src="assets/images/discount.png" class="product-dis">
+				<h1>Product For You</h1>
+			</div>
+			<div class="product-container">
+
+				<div class="product-name-list">
+					<h2>Search</h2>
+					<input type="text" name="" id="search" placeholder="Search Item..."><br>
+					<h2>Category</h2>
+					<div>
+						<input type="checkbox" name="" id="electronic">
+						<label for="electronic">Electronics</label>
+					</div>
+					<div>
+						<input type="checkbox" name="" id="beuty">
+						<label for="beuty">Beuty</label>
+					</div>
+					<div>
+						<input type="checkbox" name="" id="games">
+						<label for="games">Games</label>
+						
+					</div>
+
+					<div>
+						<input type="checkbox" name="" id="neckbands">
+						<label for="neckbands">Neckbands</label>
+						
+					</div>
+
+					<div>
+						<input type="checkbox" name="" id="speaker">
+						<label for="speaker">Speaker</label>
+					</div>
+
+					<div>
+						<input type="checkbox" name="" id="car">
+						<label for="car">Car Accessories</label>
+					</div>
+
+					<div>
+						<input type="checkbox" name="" id="w-cloth">
+						<label for="w-cloth">Women Clothes</label>
+					</div>
+					
+					<div>
+						<input type="checkbox" name="" id="m-cloth">
+						<label for="m-cloth">Men Clothes</label>
+					</div>
+					
+					<div>
+						<input type="checkbox" name="" id="bags">
+						<label for="bags">Bags</label>
+					</div>
+
+					<div>
+						<input type="checkbox" name="" id="m-accessories">
+						<label for="m-accessories">Mobile Accessories</label>
+					</div>
+				</div>
+				<div class="product-list">
+						<div class="card">
+							<img src="assets/images/product-images/neckband.webp" width="200" >
+							<span id="product-name">Neckband</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/airpod.webp" width="200" >
+							<span id="product-name">Nirwana Ion</span>
+							<br>
+							<span id="rate">$ 100</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/headphone.webp" width="200" >
+							<span id="product-name">Headphone</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/speaker.webp" width="200" >
+							<span id="product-name">Speaker</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/watch.webp" width="200" >
+							<span id="product-name">Watch</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/blackairpod.webp" width="200" >
+							<span id="product-name">Airpod 131</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/airpod-381.webp" width="200" >
+							<span id="product-name">Airpod 381</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/watch.webp" width="200" >
+							<span id="product-name">Watch</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/bar5400.webp" width="200" >
+							<span id="product-name">Avente Bar 5400D</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/stormcall.webp" width="200" >
+							<span id="product-name">Storm Call 2</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/airpod131pro.webp" width="200" >
+							<span id="product-name">Airpod 131 Pro</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/airpod161.webp" width="200" >
+							<span id="product-name">Airpod 161</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/neckband.webp" width="200" >
+							<span id="product-name">Neckband</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/airpod.webp" width="200" >
+							<span id="product-name">Nirwana Ion</span>
+							<br>
+							<span id="rate">$ 100</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/headphone.webp" width="200" >
+							<span id="product-name">Headphone</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/speaker.webp" width="200" >
+							<span id="product-name">Speaker</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/watch.webp" width="200" >
+							<span id="product-name">Watch</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/blackairpod.webp" width="200" >
+							<span id="product-name">Airpod 131</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/airpod-381.webp" width="200" >
+							<span id="product-name">Airpod 381</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/watch.webp" width="200" >
+							<span id="product-name">Watch</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/bar5400.webp" width="200" >
+							<span id="product-name">Avente Bar 5400D</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/stormcall.webp" width="200" >
+							<span id="product-name">Storm Call 2</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/airpod131pro.webp" width="200" >
+							<span id="product-name">Airpod 131 Pro</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+						<div class="card">
+							<img src="assets/images/product-images/airpod161.webp" width="200" >
+							<span id="product-name">Airpod 161</span>
+							<br>
+							<span id="rate">$ 200</span>
+							<br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<input type="submit" name="" value="Add to Cart" id="addcart">
+						</div>
+				</div>
+			</div>
+	</main>
+	<footer>
+		<div class="footer-container">
+			<div class="shop-on-onlinestore">
+				<p class="shop-with-us">Shop Non-Stop on OnlineStore</p>
+				<span>Trusted by more than 1 Crore Indians</span>
+				<span>Cash on Delivery | Free Delivery</span>
+				<div class="shop-on-onlinestore-image">
+					<a href="#"><img src="assets/images/playstore.webp"></a>
+					<a href="#"><img src="assets/images/applestore.webp"></a>
+				</div>
+			</div>
+			<div class="shop-on-onlinestore">
+				<a href="#"><span>Carrers</span></a>
+				<a href="#"><span>Become a Supplier</span></a>
+				<a href="#"><span>Hall of Fame</span></a>
+				<a href="#"><span>Sitemap</span></a>
+				<a href="#"><span>Legal and Policies</span></a>
+				<a href="#"><span>Blog</span></a>
+				<a href="#"><span>Notices and Returns</span></a>
+			</div>
+			<div class="shop-on-onlinestore">
+				<p>Reach out to us</p>
+				<div class="social-image">
+					<a href="#">
+						<img src="assets/images/contact/facebook.webp">
+					</a>
+					<a href="#">
+						<img src="assets/images/contact/twitter.webp">
+					</a>
+					<a href="#">
+						<img src="assets/images/contact/instagram.webp">
+					</a>
+					<a href="#">
+						<img src="assets/images/contact/youtube.webp">
+					</a>
+					<a href="#">
+						<img src="assets/images/contact/linkedin.webp">
+					</a>
+				</div>
+			</div>
+			<div class="shop-on-onlinestore">
+					<p>Contact us</p>
+					<span>+91 6699887744</span>
+					<span>info@onlinestore.com</span>
+					<span>
+						Vasundhra Enclave, <br>East Delhi, <br>Delhi-110096 
+					</span>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
