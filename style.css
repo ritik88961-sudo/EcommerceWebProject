@@ -73,7 +73,7 @@ header{
 	top: 1.7rem;
 	left: 5rem;
 	width: 80%;
-	height: 65vh;
+	height: 70vh;
 	margin-top: 2.2rem;
 	transition: .6s;
 	box-shadow: 3px 3px 3px lightgrey;
@@ -133,7 +133,6 @@ header{
 .navbar-dropdown-list{
 	display: inline-block;
 	margin-top: 2rem;
-	margin-right: 4rem;
 	padding: .2rem;
 }
 .navbar-dropdown-list span{
