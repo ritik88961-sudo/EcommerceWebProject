@@ -4,7 +4,7 @@ const products = [
     { name: 'Airpod', price: '$15.00', imgSrc: 'assets/images/product-images/airpod.webp' },
         { name: 'Airpod-131', price: '$20.00', imgSrc: 'assets/images/product-images/airpod131pro.webp' },
         { name: 'Airpod-161', price: '$25.00', imgSrc: 'assets/images/product-images/airpod161.webp' },
-        { name: 'Airpod-191', price: '$30.00', imgSrc: 'assets/images/product-images/airpod191g.webp' },
+        { name: 'Speaker', price: '$30.00', imgSrc: 'assets/images/product-images/speaker.webp' },
         { name: 'Airpod-381', price: '$35.00', imgSrc: 'assets/images/product-images/airpod-381.webp' },
         { name: 'Bar-5400', price: '$40.00', imgSrc: 'assets/images/product-images/bar5400.webp' },
         { name: 'Airpod', price: '$45.00', imgSrc: 'assets/images/product-images/blackairpod.webp' },
